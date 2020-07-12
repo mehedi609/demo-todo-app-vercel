@@ -7,7 +7,9 @@ const Header = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Todo-App</Navbar.Brand>
+          <Link href="/">
+            <a className="navbar-brand">Home</a>
+          </Link>
           <Nav className="mr-auto">
             <Link href="/">
               <a className="nav-link" role="button">
