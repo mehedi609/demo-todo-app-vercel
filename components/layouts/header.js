@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Link href="/">
-            <a className="navbar-brand">Home</a>
+            <a className="navbar-brand">TODO-APP</a>
           </Link>
           <Nav className="mr-auto">
             <Link href="/">
